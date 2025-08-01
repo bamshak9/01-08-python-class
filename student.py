@@ -10,6 +10,9 @@ print(student["name"])
 print(student["department"])
 print(f"CSC 111 Score:", student["grades"][0]["csc 111"])
 print("Favorite color:", student["fav_colors"][2])
+#student["fav_colors"].remove("Red")
+#print(student["fav_colors"])
+
 #Dictionary Methods
 print(student.get("name"))
 print(student.keys())
